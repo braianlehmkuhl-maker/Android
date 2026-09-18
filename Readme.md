@@ -9,4 +9,5 @@ Títulos:
 Textos: 
 
 Imagens
-Banner principal:
+Banner principal
+Cards
