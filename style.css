@@ -1,52 +1,74 @@
 /* ==============================
-   FOOTER - ROBÓTICA
+   FOOTER - ANDROID
    ============================== */
 
 .footer {
-    background: #080d18;
-    color: white;
+    background: #0a0f1c;
+    color: #f5f7fa;
     padding: 50px 8% 20px;
     margin-top: 50px;
 }
 
-/* Área principal */
+
+/* ==============================
+   ÁREA PRINCIPAL
+   ============================== */
 
 .footer-container {
     max-width: 1200px;
     margin: auto;
 
     display: grid;
+
     grid-template-columns:
         2fr 1fr 1fr 1fr;
 
     gap: 40px;
 }
 
-/* Títulos */
+
+/* ==============================
+   TÍTULOS
+   ============================== */
 
 .footer h2 {
-    color: #00d9ff;
+    color: #00a8ff;
     margin-bottom: 15px;
 }
 
 .footer h3 {
-    color: #00d9ff;
+    color: #7b2cff;
     margin-bottom: 15px;
 }
 
-/* Textos */
+
+/* ==============================
+   TEXTOS
+   ============================== */
 
 .footer p {
-    color: #b8c1d1;
+    color: #f5f7fa;
     line-height: 1.6;
 }
 
-/* Links */
+
+/* ==============================
+   CONTATO
+   ============================== */
+
+.footer address {
+    font-style: normal;
+}
+
+
+/* ==============================
+   LINKS
+   ============================== */
 
 .footer a {
     display: block;
 
-    color: #b8c1d1;
+    color: #f5f7fa;
 
     text-decoration: none;
 
@@ -56,9 +78,11 @@
 }
 
 .footer a:hover {
-    color: #00d9ff;
+    color: #00a8ff;
+
     transform: translateX(5px);
 }
+
 
 /* ==============================
    PATROCINADORES
@@ -71,8 +95,11 @@
 
     padding-top: 30px;
 
-    border-top: 1px solid #263044;
+    border-top: 1px solid #7b2cff;
 }
+
+
+/* Lista de patrocinadores */
 
 .patrocinadores-lista {
     display: flex;
@@ -82,19 +109,38 @@
     margin-top: 20px;
 
     flex-wrap: wrap;
+
+    list-style: none;
+
+    padding: 0;
 }
 
-.patrocinadores-lista span {
-    background: #111a2b;
 
-    border: 1px solid #263044;
+/* Empresas */
+
+.patrocinadores-lista li {
+    background: #0a0f1c;
+
+    border: 1px solid #00a8ff;
 
     padding: 12px 25px;
 
     border-radius: 8px;
 
-    color: #b8c1d1;
+    color: #f5f7fa;
+
+    transition: 0.3s;
 }
+
+
+/* Efeito ao passar o mouse */
+
+.patrocinadores-lista li:hover {
+    border-color: #7b2cff;
+
+    transform: translateY(-3px);
+}
+
 
 /* ==============================
    INFORMAÇÕES ADICIONAIS
@@ -107,14 +153,16 @@
 
     padding-top: 25px;
 
-    border-top: 1px solid #263044;
+    border-top: 1px solid #7b2cff;
 }
+
 
 .informacoes a {
     display: inline-block;
 
     margin-right: 25px;
 }
+
 
 /* ==============================
    RODAPÉ INFERIOR
@@ -127,7 +175,7 @@
 
     padding-top: 20px;
 
-    border-top: 1px solid #263044;
+    border-top: 1px solid #7b2cff;
 
     display: flex;
 
@@ -135,6 +183,7 @@
 
     align-items: center;
 }
+
 
 /* ==============================
    RESPONSIVIDADE
